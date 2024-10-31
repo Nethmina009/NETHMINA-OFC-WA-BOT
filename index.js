@@ -80,7 +80,7 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful ✅')
 console.log('NETHMINA-OFC-WABOT connected to whatsapp ✅')
 
-let up = `*NETHMINA-OFC WABOT CONNECTED SUCCESSFULLY ✅*\n\n*PREFIX: [${prefix}]*`;
+let up = `*NETHMINA-OFC WABOT CONNECTED SUCCESSFULLY ✅*\n\n*PREFIX: [${prefix}]*\n\n*BOT GROUP LINK: https://chat.whatsapp.com/FUGjjEbLPQp7KHL5jAUJb8\n\n*BOT OWNER: https://wa.me/+94706369728?text=Hi+Nethmina+OFC+☺️👋**`;
 
 conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/7dd5b186621993e20b73b.jpg` }, caption: up })
 
